@@ -1,0 +1,225 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "patient_id",
+						"type": "uint256"
+					}
+				],
+				"name": "retreive_attendant_details",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "patient_id",
+						"type": "uint256"
+					}
+				],
+				"name": "retreive_patient_details",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "patient_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_attendant_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_attendant_relation",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_attendant_phn_no",
+						"type": "uint256"
+					}
+				],
+				"name": "store_attendant_details",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "patient_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_patient_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_gender",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_height",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_weight",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_patient_address",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_phone_no",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_email_id",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_date",
+						"type": "uint256"
+					}
+				],
+				"name": "store_patient_details",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"patient.sol": "Patient"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"patient.sol": {
+			"keccak256": "0xad435a81daabb7bb048dd1581fd645e691c9dc8ccd62fcbfc3e462e272df28de",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://67df4a98a1420eefefffe468ae5236e1e45a17928f760f82e6b6bdeeb0d5c225",
+				"dweb:/ipfs/QmSJenTF8GcYDhD3kLnuYwfHvJF4TE6ahjdsPBhFipFey6"
+			]
+		}
+	},
+	"version": 1
+}
